@@ -1,0 +1,25 @@
+html{
+    font-size: 30px;
+    background-color: grey;
+    max-width: 800px;
+    font-family: Impact, sans-serif, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    text-decoration: double;
+    color: green;
+    text-shadow: 1pt;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 27px;
+}
