@@ -1,20 +1,30 @@
 html{
-    font-size: 30px;
-    background-color: grey;
-    max-width: 800px;
-    font-family: Impact, sans-serif, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    font-family: "Open Sans", sans-serif, 'Arial Narrow Bold', sans-serif;
 }
 
+.content {
+        max-width: 75ch;
+        margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5rem;
+    background-color: hsl(280, 50%, 40%);
+    padding: 4rem 0;
+    border-bottom: 5px solid hsl(300, 50%, 50%);
+    color: white;
+}
 h1 {
     font-weight: 400;
     text-decoration: double;
-    color: green;
     text-shadow: 1pt;
 }
 
 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 100;
+    font-weight: 500;
 
 }
 
@@ -22,4 +32,17 @@ img {
     width: 300px;
     height: auto;
     border-radius: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: blueviolet;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.125rem;
 }
